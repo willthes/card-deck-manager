@@ -1,0 +1,12 @@
+/* Basic layout styling */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  

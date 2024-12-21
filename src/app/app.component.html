@@ -1,0 +1,13 @@
+<app-toolbar color="primary">
+  <span>Card Deck</span>
+</app-toolbar>-toolbar>
+
+<div style="text-align: center; margin: 20px;">This is your card deck!</div>
+
+<div class="card-container">
+  <div *ngFor="let card of deck" class="card">
+    <div class="card-content">
+      <span>{{ card.rank }} of {{ card.suit }}</span>
+    </div>
+  </div>
+</div>

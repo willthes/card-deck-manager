@@ -1,0 +1,19 @@
+mat-toolbar {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  mat-card {
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+  }
+  
+  button {
+    margin-right: 8px;
+  }
+  
+  @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
